@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="08a5a9f5-1a0d-4abf-8494-60d8b9051b4b" name="Changes" comment="Removed redundant comments." />
+    <list default="true" id="08a5a9f5-1a0d-4abf-8494-60d8b9051b4b" name="Changes" comment="Removed redundant comments.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2XvegsjoVNu1SAu0VvxzUMiLrWm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,7 +47,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true"
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,21 +79,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.countCapitalLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.combine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS.11.05-Quiz-5.1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="countCapitalLetters" />
+      <option name="METHOD_NAME" value="combine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.product" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.countCapitalLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS.11.05-Quiz-5.1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="product" />
+      <option name="METHOD_NAME" value="countCapitalLetters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,10 +112,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.countCapitalLetters" />
         <item itemvalue="JUnit.MainTest.capitalCount" />
-        <item itemvalue="JUnit.MainTest.product" />
+        <item itemvalue="JUnit.MainTest.countCapitalLetters" />
         <item itemvalue="JUnit.MainTest.zip" />
+        <item itemvalue="JUnit.MainTest.combine" />
       </list>
     </recent_temporary>
   </component>
@@ -149,5 +160,44 @@
     <MESSAGE value="Added Main class and MainTest class." />
     <MESSAGE value="Removed redundant comments." />
     <option name="LAST_COMMIT_MESSAGE" value="Removed redundant comments." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainTest.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainTest.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/MainTest.java</url>
+          <line>48</line>
+          <properties class="MainTest" method="combine">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/MainTest.java</url>
+          <line>79</line>
+          <properties class="MainTest" method="zip">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
